@@ -27,9 +27,10 @@
     transform: translate(-50%, -50%);
     width: 0;
     height: 0;
-    border-left: 60px solid transparent;
-    border-right: 60px solid transparent;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
     border-bottom: 100px solid white;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
   }
 
   .circle {
@@ -42,6 +43,7 @@
     border: 2px solid white;
     border-radius: 50%;
     border-top: none;
+    clip-path: polygon(50% 0%, 0% 50%, 50% 100%, 100% 50%);
   }
 
   .glow {
